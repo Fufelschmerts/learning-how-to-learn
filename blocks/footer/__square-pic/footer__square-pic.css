@@ -1,0 +1,10 @@
+.footer__square-pic {
+  width: 268px;
+  height: 268px;
+  background-color: #2f80ed;
+  position: absolute;
+  left: 20%;
+  bottom: -60px;
+  z-index: -1;
+  animation: rotation 30s ease-in-out infinite reverse;
+}

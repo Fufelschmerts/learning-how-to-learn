@@ -1,0 +1,15 @@
+.footer__arrow-up-logo {
+  display: flex;
+  opacity: .3;
+  transition: opacity .2s linear;
+  position: relative;
+  bottom: -35px;
+  color: #2f80ed;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.footer__arrow-up-logo:hover {
+  opacity: .6;
+}
