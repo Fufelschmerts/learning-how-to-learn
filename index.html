@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="../vendor/normalize.css">
-  <link rel="stylesheet" href="../blocks/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 
 <body>
   <div class="page">
     <header class="header" id="head">
-      <div class="logo logo_place-header"></div>
+      <div class="logo logo_place_header"></div>
       <h1 class="header__title">
         Научиться учиться
       </h1>
@@ -21,14 +21,13 @@
         <a href="#techniс" class="header__link">Узнать →</a>
       </p>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <!-- можно ли нарисовать треугольник в css -->
     </header>
     <main class="content">
-
-      <section class="description">
-        <div class="two-columns">
+      <section class="description" aria-label="section-desctiption">
+        <article class="two-columns">
           <h2 class="two-columns__brief">
-            Главные проблемы в обучении
+            Главные проблемы в&nbsp;обучении
           </h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -45,7 +44,7 @@
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques" id="techniс">
         <h2 class="section-title">Техники обучения</h2>
@@ -221,7 +220,6 @@
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
-          <div class="kaufman__triangle"></div>
         </div>
       </section>
 
@@ -246,16 +244,16 @@
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">2023 &copy; Иван Малиновский</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <h3 class="column__heading">О Практикуме</h3>
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">Подробнее</h3>
           <ul class="footer__column-links">
             <li class="footer__list-item"><a class="footer__column-link" href="" target="_blank">Главная</a></li>
             <li class="footer__list-item"><a class="footer__column-link" href="" target="_blank">Концепция</a></li>
             <li class="footer__list-item"><a class="footer__column-link" href="" target="_blank">Наставники</a></li>
           </ul>
-        </div>
+        </nav>
         <div class="footer__column footer__column_content_social">
-          <h3 class="column__heading">Соцсети</h3>
+          <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li class="footer__list-item"><a class="footer__column-link" href="https://www.instagram.com/pknboom"
                 target="_blank"><img class="footer__social-icon" src="./images/instagram_color_white.svg"
@@ -269,8 +267,7 @@
           </ul>
         </div>
       </div>
-      <div class="footer__square-pic"></div>
-      <a href="#head"><img title="Наверх" class="footer__arrow-up-logo" src="./images/footer__arrow-up.svg" alt=""></a>
+      <a href="#head"><img title="Наверх" class="footer__arrow-up-logo" src="./images//footer__arrow-up.svg" alt=""></a>
     </footer>
   </div>
 </body>

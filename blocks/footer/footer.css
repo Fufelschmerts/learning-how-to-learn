@@ -1,11 +1,12 @@
 @import url(./__columns/footer__columns.css);
 @import url(./__column/footer__column.css);
-@import url(../header/logo/_place_footer/logo_place_footer.css);
+@import url(../logo/logo.css);
+@import url(../logo/_place/logo_place_footer.css);
 @import url(./__author/footer__author.css);
+@import url(./__column-heading/footer__column-heading.css);
 @import url(./__column-links/footer__column-links.css);
 @import url(./__column-link/footer__column-link.css);
 @import url(./__social-icon/footer__social-icon.css);
-@import url(./__square-pic/footer__square-pic.css);
 @import url(./__arrow-up-logo/footer__arrow-up-logo.css);
 
 .footer {
@@ -17,4 +18,16 @@
   box-sizing: border-box;
   overflow: hidden;
   z-index: 0;
+}
+
+.footer::after {
+  content: "";
+  width: 268px;
+  height: 268px;
+  background-color: #2f80ed;
+  position: absolute;
+  left: 20%;
+  bottom: -60px;
+  z-index: -1;
+  animation: rotation 30s ease-in-out infinite reverse;
 }

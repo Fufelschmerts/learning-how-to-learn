@@ -1,12 +1,13 @@
 .footer__arrow-up-logo {
   display: flex;
-  opacity: .3;
-  transition: opacity .2s linear;
-  position: relative;
-  bottom: -35px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
   color: #2f80ed;
   width: 44px;
   height: 44px;
+  opacity: .3;
+  transition: opacity .2s linear;
   margin: 0 auto;
 }
 

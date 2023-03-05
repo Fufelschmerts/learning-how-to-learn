@@ -12,8 +12,11 @@
 
 Используемы технологии
 + Flexbox
++ Grid
++ Position
 + Iframe
 + Transition
 + CSS animation
 ------
 
+Планируется добавить форму обратной связи
